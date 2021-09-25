@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Project</title>
-    <style>
+    <!--<style>
      .i{
         border-radius: 50%;
         position: relative;
@@ -82,14 +82,18 @@
        border-radius: 50%;
      }
  
-    </style>
+    </style>---->
 </head>
 <body>
     <!--nav section-->
-    <nav class="navbar navbar-expand-lg shadow-sm navbar-light fixed-top ">
-  <div class="container">
-    <a class="navbar-brand fw-bold fs-3 text-primary" href="#">MKM Alain Tresor
-      <img src="img/c.jpg" class="tr">
+    <nav class="navbar navbar-expand-lg shadow-sm navbar-light fixed-top " 
+    style="background:rgba(5, 46, 46, 0.616);">
+  <div class="container-lg">
+    <a class="navbar-brand fw-bold fs-3 text-primary" style="color: rgb(3, 51, 99) ;" href="#">MKM Alain Tresor
+      <img src="img/b.jpg" class="tr" style="position: relative;
+      right: 300px;
+      height: 50px;
+      border-radius: 50%;">
     </a>
     <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" 
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,7 +102,7 @@
 
       </span>
     </button>
-    <div class="collapse navbar-collapse" id="navmenu">
+    <div class="collapse navbar-collapse" id="navmenu" style="color: rgb(128, 0, 0);">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item ">
           <a class="nav-link active" href="#home"><i class="text-primary fa fa-home ms-3"></i>
@@ -135,14 +139,20 @@
             <div class="row justify-content-center align-items-center mt-5">
                 <div class="col-md-6 mt-5 order-md-first">
                     <p class="text fs-2"> I'm a</p>
-                    <h2 class="fw-bold ">Game Designer</h2>
-                    <h1 class="fs-4">Alain Mkm</h1>
-                    <p class="p fs-4">This is my Portofolio</p>
-                    <a href="#"class="btn btn fw-bold">My work</a>
+                    <h2 class="fw-bold" style="color: rgb(3, 51, 99) ;">Game Designer</h2>
+                    <h1 class="fs-4" style="color: rgb(3, 51, 99) ;">Alain Mkm</h1>
+                    <p class="p fs-4" style="color: rgb(3, 51, 99) ;">This is my Portofolio</p>
+                    <a href="#"class="btn btn fw-bold" style="background:rgb(158, 194, 230) ;
+                    color: rgb(190, 21, 21);">My work</a>
                 </div>
 
                 <div class="col-md-6 mt-5 ">
-                    <img src="img/website.jpg" width="250" alt="image de profile" class="i">
+                    <img src="img/b.jpg" width="250" alt="image de profile" class="i" 
+                    style="border-radius: 50%;
+                    position: relative;
+                    right: -250px;
+                    top: 20%;
+                    height: 260px;">
                 </div>
             </div>
         </div>
@@ -150,19 +160,19 @@
     <!--end home section-->
 
     <!--about section-->
-    <section class="about py-5  mt-5" id="about">
+    <section class="about py-5  mt-5" id="about" style="background:rgba(161, 236, 236, 0.616) ;">
         <div class="container-lg">
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-8">
                     <div class="section-title text-center">
-                        <h2 class="fw-bold mb-5">About Me</h2>
+                        <h2 class="fw-bold mb-5" style="color: rgb(3, 51, 99) ;">About Me</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="about-text">
-                        <h3 class="fw-bold fs-5">
+                        <h3 class="fw-bold fs-5" style="color: rgb(3, 51, 99) ;">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3> 
                         <p>Illum eum labore officia quo velit repellendus libero omnis est! 
                           Facilis quam officia molestias tenetur ipsa placeat neque fugiat quia enim, 
@@ -171,21 +181,23 @@
                     </div>
                     <div class="row text-center mt-3">
                     <div class="col-sm-4">
-                        <h4 class="fw-bold fs-2">100</h4>
+                        <h4 class="fw-bold fs-2" style="color: rgb(3, 51, 99) ;">100</h4>
                         <p class="text-muted">Projects completed</p>
                     </div>
                     <div class="col-sm-4">
-                        <h4 class="fw-bold fs-2">90%</h4>
+                        <h4 class="fw-bold fs-2" style="color: rgb(3, 51, 99) ;">90%</h4>
                         <p class="text-muted">Happy Client</p>
                 </div>
                     <div class="col-sm-4">
-                        <h4 class="fw-bold fs-2">85%</h4>
+                        <h4 class="fw-bold fs-2" style="color: rgb(3, 51, 99) ;">85%</h4>
                         <p class="text-muted">Positive Reviews</p>
                 </div>
                 </div>
                 <div class=row mt-4>
                     <div class="col-lg-12 d-flex">
-                        <a href="" class="btn btn-success me-5">Download Some</a>
+                        <a href="" class="btn btn-success me-5" 
+                        style="background:rgb(158, 194, 230) ;
+                        color: rgb(190, 21, 21);">Download Some</a>
                         <div class="social-links">
                             <a href="" class="text-success me-2"><i class="fab fa-github fa-2x"></i></a>
                             <a href="" class="text-success me-2"><i class="fab fa-twitter fa-2x"></i></a>
@@ -246,13 +258,14 @@
           <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-tittle text-center">
-                <h1 class="fw-bold md-5">What do we do</h1>
+                <h1 class="fw-bold md-5" style="color: rgb(3, 51, 99) ;">What do we do</h1>
             </div>
           </div>
         </div>
           <div class="row text-center">
             <div class="col-md-4 col-sm-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded">
+              <div class="service-item shadow-sm p-4 rounded" 
+              style=" background:rgba(161, 236, 236, 0.616) ;">
                 <div class="icon my-3 text-danger fs-2">
                 <i class="fas fa-code"></i>
                 </div>
@@ -263,9 +276,9 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded">
+              <div class="service-item shadow-sm p-4 rounded" style=" background:rgba(161, 236, 236, 0.616) ;">
                 <div class="icon my-3 text-danger fs-2">
-                <i class="fas fa-code"></i>
+                <i class="fas fa-lightbulb"></i>
                 </div>
                   <h3 class="py-2 fs-5">Game Development</h3>
                     <p class="text-muted">Illum eum labore officia quo velit repellendus libero omnis est! 
@@ -274,7 +287,7 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-4 mb-4">
-              <div class="service-item shadow-sm p-4 rounded">
+              <div class="service-item shadow-sm p-4 rounded" style=" background:rgba(161, 236, 236, 0.616) ;">
                 <div class="icon my-3 text-danger fs-2">
                 <i class="fas fa-image"></i>
                 </div>
@@ -293,7 +306,7 @@
           <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-tittle text-center">
-                <h1 class="fw-bold md-5">Latest Work</h1>
+                <h1 class="fw-bold md-5" style="color: rgb(3, 51, 99) ;">Latest Work</h1>
             </div>
           </div>
         </div>
@@ -345,9 +358,11 @@
       <div class="container-fluid">
         <div class="row bg-light  text-center text-white">
           <div class="col">
-              <p class="fs-5 mt-5">Do you have a Project</p>
-              <h1 class="pb-4">I'm available for freelancer projects</h1>
-              <a href="#"class="btn btn-primary border-white mb-5">Hire me</a>
+              <p class="fs-5 mt-5 fw-bold text-dark">Do you have a Project</p>
+              <h1 class="pb-4 text-dark">I'm available for freelancer projects</h1>
+              <a href="#"class="btn btn-primary border-white mb-5"
+              style="background:rgb(158, 194, 230) ;
+        color: rgb(190, 21, 21);">Hire me</a>
           </div>
       </div>
       </div>
@@ -358,16 +373,70 @@
           <div class="row justify-content-center mt-5">
             <div class="col-lg-8">
               <div class="section-tittle text-center">
-                  <h1 class="fw-bold md-5">Testimonials</h1>
+                  <h1 class="fw-bold md-5" style="color: rgb(3, 51, 99) ;">Testimonials</h1>
               </div>
-            </div>
-          </div>
-          <div class="row justify-content-center mt-5">
-            <div class="col-lg-8">
               <div class="testi.items shadow-sm rounded p-4 mb-5">
+              <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel1" 
+                  data-bs-slide-to="0" class="active bg-primary " aria-current="true" aria-label="Slide 1">
+                </button>
+                  <button type="button" data-bs-target="#carousel1" 
+                  data-bs-slide-to="1" class="bg-primary" aria-label="Slide 2">
+                </button>
+                  <button type="button" data-bs-target="#carousel1" 
+                  data-bs-slide-to="2" class="bg-primary" aria-label="Slide 3">
+                </button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active mb-5">
+                    <div class="testi-author-info">
+                      <div class="d-flex mb-4 align-items-center">
+                      <img src="https://randomuser.me/api/portraits/men/10.jpg" 
+                      class="img-thumbnail rounded-circle mb-3" alt="">
+                      <div class="author ms-3 mb-3 mt-4">
+                        <h3 class="fs-6">John</h3>
+                        <p class="text-muted">SEO</p>
+                      </div>
+                    </div>
+                  </div>
+                    <p>Illum eum labore officia quo velit repellendus libero omnis est! 
+                      Facilis quam officia molestias tenetur ipsa placeat neque fugiat quia enim, 
+                      iste repudiandae at sapiente esse nihil ut porro inventore.</p>
+                      <div class="rating text-danger">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                  </div>
+                
+                <div class="carousel-item mb-5">
+                  <div class="testi-author-info">
+                    <div class="d-flex mb-4 align-items-center">
+                    <img src="https://randomuser.me/api/portraits/men/1.jpg" 
+                    class="img-thumbnail rounded-circle mb-3" alt="">
+                    <div class="author ms-3 mb-3 mt-4">
+                      <h3 class="fs-6">John</h3>
+                      <p class="text-muted">SEO</p>
+                    </div>
+                  </div>
+                  <p>Illum eum labore officia quo velit repellendus libero omnis est! 
+                    Facilis quam officia molestias tenetur ipsa placeat neque fugiat quia enim, 
+                    iste repudiandae at sapiente esse nihil ut porro inventore.</p>
+                    <div class="rating text-primary">
+                      <!--<i class="fas fa-star"></i>-->
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item mb-5">
                 <div class="testi-author-info">
                   <div class="d-flex mb-4 align-items-center">
-                  <img src="https://randomuser.me/api/portraits/men/11.jpg" class="l" alt="">
+                  <img src="https://randomuser.me/api/portraits/men/20.jpg" 
+                  class="img-thumbnail rounded-circle mb-3" alt="">
                   <div class="author ms-3 mb-3 mt-4">
                     <h3 class="fs-6">John</h3>
                     <p class="text-muted">SEO</p>
@@ -382,7 +451,10 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                   </div>
+                  </div>
+                  </div>
               </div>
+              <!--end of item-->
             </div>
           </div>
         </div>
@@ -390,12 +462,12 @@
 <!--end of testimonial section-->
 
 <!--section contact-->
-<section class="contact  py-5 " id="contact">
+<section class="contact  py-5 " id="contact" style=" background:rgba(161, 236, 236, 0.616) ;">
   <div class="container-lg">
     <div class="row justify-content-center mt-5">
       <div class="col">
         <div class="section-tittle text-center">
-            <h1 class="fw-bold md-5">Contact</h1><br>
+            <h1 class="fw-bold md-5" style="color: rgb(3, 51, 99) ;">Contact</h1><br>
         </div>
       </div>
     </div>
@@ -429,35 +501,54 @@
             </div>
       </div>
       </div>  
-      <div class="col">
-       <div class="row mb-2">
-          <input type="text" name="tresor" placeholder="Your name" required>
-       </div>   
-        <div class="row mt-2">
-          <input type="email" name="Email" placeholder="Your email" required>
+
+       <div class="col-md-7">
+         <div class="contact-form">
+           <form action="">
+             <div class="row">
+               <div class="col-md-6">
+                 <input type="text" placeholder="your name" class="form-control form-control-md fs-6
+                 border-0 shadow-sm">
+               </div>
+               <div class="col-lg-6 mb-4">
+                <input type="email" placeholder="your email" class="form-control form-control-md fs-6
+                border-0 shadow-sm">
+              </div>
+             <div class="row">
+             <div class="col-lg-12 mb-4">
+              <input type="text" placeholder="your Subject" class="form-control form-control-md fs-6
+              border-0 shadow-sm">
+            </div>
+          </div>
+          <div class="row">
+          <div class="col-lg-12">
+              <textarea placeholder="Your Message" rows="5" 
+              class="form-control form-control-md fs-6 border-0 shadow-sm"></textarea>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mt-4">
+              <button type="button" class="btn btn-danger">Send Message</button>
+            </div>
+          </div>
+           </form>
          </div>
-       <div class="row mt-2">
-          <input type="text" name="tresor" placeholder="Subject" required>
-       </div><br>
-       <div class="row mb-2">
-          <textarea placeholder="Message"></textarea>
-       </div>   
-       <div class="row">
-        <div class="col mb-2">
-          <a href="#"class="btn btn-danger">Send Message</a>
+       </div> 
+      </section>
+       <!--end section of contact--> 
+
+       <!--section footer-->
+       <section class="footer-section border-top py-5">
+        <div class="container-md">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-center text-muted">&copy; 2021 MKM 13'or</p>
+            </div>
+          </div>
         </div>
-       </div>
-        </div>
-       </div>  
-       <hr width="100%">
-       <p class="text-center">©2021 MKM 13'or</p>
-
-                   
-                   
-
-
-<!--end of section contact-->
-
+       </section>
+       <!--end of section footer-->
+       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
